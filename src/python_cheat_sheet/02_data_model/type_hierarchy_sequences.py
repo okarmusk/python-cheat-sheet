@@ -11,3 +11,9 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 letters[6:] = []
 letters[0:3] = []
 print(letters)
+
+# Unpacking in sequences
+x = [1, 2, 3, 4]
+y = [5, 6, 7, 8]
+z = [*x, *y]
+print(z)
