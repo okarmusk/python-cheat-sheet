@@ -6,7 +6,7 @@ class Third:
     variable = 'Third class shared variable' # CLass shared variable, till override via instance
 
     def __init__(self):
-        pass
+        logging.info('Third class constructor call')
 
     # class method setter
     @classmethod
